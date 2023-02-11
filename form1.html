@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form1</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>logine form</legend>
+
+            <h1>NOVELL SEVICES LOGIN</h1>
+            <label for="username:">username:</label>
+            <input id="username:" type="text" placeholder="enter your username" required>
+            <br>
+            <br>
+            <label for="password:">password:</label>
+            <input id="password:" type="text" placeholder="enter your password " required>
+            <br>
+            <br>
+           <label for="city:">city:</label>
+            <select name="city" id="city">
+                <option value="surat">surat</option>
+                <option value="ahemdabad">ahemdabad</option>
+                <option value="rajkot">rajkot</option>
+                <option value="vadodara">vadodara</option>
+                <option value="amreli">amreli</option>
+            </select>
+            <br>
+            <br>
+
+            web server:
+            <select name="server" id="server">
+                <option value="nginx">nginx</option>
+                <option value="lighttpd">lighttpd</option>
+                <option value="caddy">caddy</option>
+                <option value="jetty">jetty</option>
+                <option value="cherokee">cherokee</option>
+            </select>
+            <br>
+            <br>
+
+            please specify your role:
+            <input type="radio" id="admin" value="admin" required>
+            <label for="admin">admin</label>
+            <input type="radio" id="engineer" value="engineer" required>
+            <label for="engineer">engineer</label>
+            <input type="radio" id="manager" value="manager" required>
+            <label for="manager">manager</label>
+            <input type="radio" id="guest" value="guest" required>
+            <label for="guest">guest</label>
+            <br>
+            <br>
+
+            single sign-on to the following;
+            <input type="radio" id="mail" value="mail" required>
+            <label for="admin">mail</label>
+            <input type="radio" id="payroll" value="payroll" required>
+            <label for="engineer">payroll</label>
+            <input type="radio" id="self-service" value="self-service" required>
+            <label for="manager">self-service</label><br><br>
+            <input type="submit" value="login" required>
+            <input type="submit" value="reset" required>
+        </fieldset>
+    </form>
+</body>
+
+</html>
