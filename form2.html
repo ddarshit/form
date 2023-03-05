@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-transform: capitalize;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        img {
+           float: right;
+           width: 270px;
+        }
+
+        tr td {
+            text-align: center;
+        }
+
+        .a {
+            background-color: rgb(140, 140, 210);
+            color: blue;
+            padding: 5px;
+            
+        }
+
+        .row {
+            background-color: gray;
+        }
+
+        .blue {
+            color: blue;
+        }
+
+        .row1 {
+            color: blue;
+        }
+
+        span {
+            font-weight: bolder;
+
+        }
+    </style>
+</head>
+
+<body>
+    
+    <p><img src="../img/dog.PNG" alt="dog"></p>
+    <h2 class="a">about</h2> 
+    <p>woof woof!</p>
+    <p>hi, i'm dog. i love <a href="#"> user interface design.</a></p>
+    <h2 class="a">courses</h2>
+    here are some courses i've taken: <br> <br>
+    <table border="1">
+        <tr>
+            <th>course number</th>
+            <th>course title</th>
+            <th>semester taken</th>
+        </tr>
+        <tr>
+            <th colspan="3">for credit</th>
+        </tr>
+        <tr class="row">
+            <td class="row1">6.813</td>
+            <td class="blue">user interface design</td>
+            <td class="blue">spring 2014</td>
+        </tr>
+        <tr>
+            <td class="row1">6.034</td>
+            <td>artificial intelligence</td>
+            <td>fall 2013</td>
+        </tr>
+        <tr class="row">
+            <td class="row1">6.006</td>
+            <td>introduction to algorithms</td>
+            <td>fall 2013</td>
+        </tr>
+        <tr>
+            <th colspan="3">listener</th>
+        </tr>
+        <tr class="row">
+            <td class="row1">6.867</td>
+            <td>machine learning</td>
+            <td>fall 2013</td>
+        </tr>
+        <tr>
+            <td class="row1">6.830</td>
+            <td>database systems</td>
+            <td>fall 2012</td>
+        </tr>
+    </table>
+
+    <h2 class="a">interests</h2>
+    <p>i am interested <span>HCI</span>,memes, and youtube videos.</p>
+
+    <h2 class="a">submit pet information</h2>
+
+    <p>would love to know what kinds of pets you 'OWN' (you'll never own me). submit below!</p>
+
+    <label for="name">Name:</label>
+    <input type="text"> <br>
+
+    <label for="phylum">phylum:</label>
+    <input type="text"> <br>
+
+    <label for="gender">gender:</label>
+    <input type="text"> <br><br>
+
+    <input type="submit">
+</body>
+
+</html>
