@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            text-transform: capitalize;
+            margin: 0;
+        }
+
+        body {
+            padding: 15px;
+        }
+
+        .title-main-div {
+            display: "flex";
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .form-title {
+            padding: 0px 20PX;
+        }
+
+        .form-main {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+        h1 {
+            text-align: right;
+        }
+
+        img {
+            float: left;
+        }
+
+        h3 {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.548);
+            color: white;
+            padding: 5px;
+        }
+
+        form input {
+            border: none;
+            border-bottom: 1px solid #000;
+        }
+
+        .row1-top{
+            padding-top: 10px;
+        }
+        .row1-bottom{
+            padding-bottom: 10px;
+        }
+        .row2-top{
+            padding-top: 10px;
+        }
+        .row2-bottom{
+            padding-bottom: 10px;
+        }
+
+        .row3-top{
+            padding-top: 10px;
+        }
+        .row3-bottom{
+            padding-bottom: 10PX;
+        }
+
+        .checkbox{
+            display: flex;
+            flex-direction: column; 
+        }
+        .fullname-input {
+            width: 70%;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .date-input{
+            width: 20%;
+        }
+        .add-input{
+            width: 90%;
+            margin-left: 25px;
+            margin-right: 0px;
+        }
+        .tel-input{
+            width: 40%;
+            margin-left: 35px;
+            margin-right: 15px;
+        }
+        .email-input{
+            width: 40%;
+            margin-left: 10px;   
+        }
+        .datetime-input{
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 20%;
+        }
+        .sno-input{
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 20%;
+        }
+        .salary-input{
+            width: 30%;
+        }
+        .position-input{
+            width: 90%;
+        }
+        .a{
+            margin-left: 30%;
+        }
+
+        .a1{
+            margin-left: 29%;  
+        }
+        .a1-1{
+            width:35%
+        }
+        .a1-2{
+            margin-left: 30px;
+            width: 90%;
+        }
+        .b{
+            margin-left : 40px;
+        }
+        .b-1{
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 30%;
+        }
+        .b-2{
+            width: 50%;
+        }
+        .b-3{
+            margin-left: 10px;
+        }
+        .b-4{
+           margin-left: 10px;
+        }
+        .b-5{
+            margin-left: 10px;
+        }
+        .b-6{
+            margin-left: 10px;
+        }
+        .b-7{
+            width: 40%;
+            margin-left: 10px;
+        }
+        .b-8{
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 40%;
+        }
+        .b-9{
+            margin-left: 10px;
+            width: 40%;
+        }
+       
+        .b-15{
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 40%;
+
+        }
+        .b-16{
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 40%;
+        }
+        .b-10{
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 45%;
+        }
+        .b-11{
+            margin-left: 10px;
+            
+            width: 40%;
+        }
+        .b-12{
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 45%;
+        }
+        .b-13{
+            margin-left: 10px;
+            width: 40%;
+        }
+        .b-14{
+            margin-left: 10px;
+            width: 95%;
+        }
+
+      
+
+       
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="title-main-div">
+            <img src="../img/dd2 logo.png" alt="logo" width="50px">
+            <div>
+                <h1> Company Name</h1>
+            </div>
+        </div>
+        <div class="form-title">
+            <h2>Employment application</h2>
+        </div>
+    </header>
+
+    <form class="form-main">
+        <div>
+            <h3>Applicant Information</h3>
+        </div>
+        <div class="row1-top">
+            <label for="username">Full Name:</label>
+            <input class="fullname-input" type="text" required>
+            <label for="username">Date:</label>
+            <input class="date-input" type="datetime" required>
+        </div> <br>
+        <div>
+            <label for="Address">Address:</label>
+            <input class="add-input" type="text" required>
+        </div> <br>
+        <div>
+            <label for="Phone">Phone:</label>
+            <input class="tel-input" type="tel" required>
+            <label for="Email">Email:</label>
+            <input class="email-input" type="email" required>
+        </div> <br>
+        <div>
+            <label for="Date Available">Date Available:</label>
+            <input class="datetime-input" type="datetime" required>
+            <label for="Social Security No">Social Security No:</label>
+            <input class="sno-input" type="text" required>
+            <label for="Desired salary">Desired salary:$</label>
+            <input class="salary-input" type="text">
+        </div><br>
+        <div>
+            <label for="Position Applied for">Position Applied for:</label>
+            <input class="position-input" type="text" required>
+        </div><br>
+        <div >
+            <label for="Are you a citizen of the united states?">Are you a citizen of the united states?</label>  
+       
+             <label class="b" for="yes"> Yes</label>
+             <input  type="checkbox">
+            <label for="no">No</label> 
+            <input type="checkbox">
+    
+            <label class="a" for=" if no, are you authorized to work in the u.s."> if no, are you authorized to work in the u.s.</label>
+                <label class="b" for="yes"> Yes</label>
+                <input type="checkbox">
+                <label for="no">No</label> 
+                <input type="checkbox">
+
+           </div><br>
+           
+
+        <div>
+            <label for="have you ever worked for the company?">have you ever worked for the company?</label>
+                <label class="b" for="yes"> Yes</label>
+                <input type="checkbox">
+                <label for="no">No</label> 
+                <input type="checkbox">
+
+                <label class="a1" for="if you when?">if you when?</label>
+                <input class="a1-1" type="text">
+         </div><br>
+
+        <div >
+            <label for=" have you ever been convicted of a felony?"> have you ever been convicted of a felony?</label>
+                <label class="b" for="yes"> Yes</label>
+                <input type="checkbox">
+                <label for="no">No</label> 
+                <input type="checkbox">
+            </div> <br>
+
+        <div class="row1-bottom">
+            <label for="if yes, explian">if yes, explian:</label>  <input class="a1-2" type="text">
+        </div>
+
+        <div>
+            <h3>Education</h3>
+        </div>
+
+        <div class="row2-top">
+            <label for=" High school:"> High school:</label>
+            <input class="b-1" type="text">
+            <label for="address:">address:</label> 
+            <input class="b-2" type="text">
+        </div><br>
+
+        <div>
+            <label for="form:">form:</label> 
+            <input class="b-3" type="text">
+            <label for="to:">to:</label> 
+            <input  type="text">
+            <label class="b-4" for="did you graduate?">did you graduate?</label> 
+            <label class="b-5" for=" Yes"> Yes</label>
+            <input  type="checkbox">
+            <label for=" No"> No</label>
+            <input  type="checkbox">
+            <label class="b-6" for="diploma:">diploma:</label> 
+            <input class="b-7" type="text">
+        </div><br>
+
+        <div>
+            <label for=" college:"> college:</label>
+            <input class="b-8" type="text">
+
+            <label for="address:">address:</label> 
+            <input class="b-9" type="text">
+        </div>
+
+        </div><br>
+
+        <div>
+            <label for="form:">form:</label> 
+            <input class="b-3" type="text">
+            <label for="to:">to:</label> 
+            <input  type="text">
+            <label class="b-4" for="did you graduate?">did you graduate?</label> 
+            <label class="b-5" for=" Yes"> Yes</label>
+            <input  type="checkbox">
+            <label for=" No"> No</label>
+            <input  type="checkbox">
+            <label class="b-6" for="diploma:">diploma:</label> 
+            <input class="b-7" type="text">
+        </div><br>
+        <div>
+            <label for="college:">college:</label> 
+            <input class="b-15" type="text">
+
+            <label for="address:">address:</label> 
+            <input class="b-16" type="text">
+        </div>
+        </div><br>
+
+        <div>
+            <label for="form:">form:</label> 
+            <input class="b-3" type="text">
+            <label for="to:">to:</label> 
+            <input  type="text">
+            <label class="b-4" for="did you graduate?">did you graduate?</label> 
+            <label class="b-5" for=" Yes"> Yes</label>
+            <input  type="checkbox">
+            <label for=" No"> No</label>
+            <input  type="checkbox">
+            <label class="b-6" for="diploma:">diploma:</label> 
+            <input class="b-7" type="text">
+        </div><br>
+
+        <div>
+            <h3>References</h3>
+        </div>
+        <div class="row3-top">
+            please list three professional References.
+        </div><br>
+
+        <div>
+            <label for=" full name:"> full name:</label>
+            <input class="b-10" type="text">
+            <label for="relationship:">relationship:</label> 
+            <input class="b-11" type="text">
+        </div><br>
+        <div>
+            <label for=" company:"> company:</label>
+            <input class="b-12" type="text">
+            <label for=" phone:"> phone:</label>
+            <input class="b-13" type="text">
+        </div><br>
+        <div class="row3-bottom">
+            <label for="address:">address:</label> 
+            <input class="b-14" type="text">
+        </div>
+
+
+
+    </form>
+
+
+</body>
+
+</html>
